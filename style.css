@@ -113,7 +113,8 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-            
+    text-align: center;
+           
 }
 
 h1 {
@@ -124,18 +125,21 @@ h1 {
 
 h2 {
     font-family: 'IBM Plex Sans', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
-    font-size: 20px;
+    font-size: 30px;
+    text-transform: uppercase;
 }
 
 h3 {
+    margin-top: 30px;
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 600;
     font-style: normal;
     font-size: 16px;
     text-decoration: underline;
     cursor: pointer;    
+    line-height: 0px;
     }
 
 h4 {
@@ -158,7 +162,7 @@ margin-bottom: 10px;
 color: #fff;
 background: #429EBD;
 cursor: point;
-
+margin-bottom: 20px;
 }
 
 /* CSS BUTTON */ 
@@ -210,7 +214,7 @@ cursor: point;
   
   .whatsapp-btn {
       position: fixed;
-      right: 100px;
+      right: 15px;
       bottom: 15px;
   }
  
