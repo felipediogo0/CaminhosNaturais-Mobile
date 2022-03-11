@@ -96,17 +96,20 @@ img {
 header {
     display: flex;
     flex-direction: column;
-}
+    }
 
 nav {
     display: grid;    
     grid-template-columns: 70% 30%; 
-    grid-template-rows: 20% 80% ;  
+    grid-template-rows: 10% 90%;
+    justify-items: center;
     }
 
 nav ul {
     grid-column-start: 1;
     grid-column-end: 3;
+    width: 100%;
+    
 }
 
 .menu-logo {
@@ -114,9 +117,9 @@ nav ul {
 }
 
 .menu-btn {
-    width: 80px;
+    width: 70px;
     border: none;
-    
+    margin-top: 10px;
 }
 
 .proximos-eventos {
@@ -296,11 +299,31 @@ margin-bottom: 20px;
     button:focus ~ ul {
         height: 250px;
         visibility: visible;
-
+        
     }
 
     button {
         border: none;
         background: #fff;
         width: 60px;
+    }
+
+    ul li {
+        width: 200px;
+        height: 30px;
+        justify-content: center;
+        display: flex;
+        border-radius: 20px;
+    }
+
+    ul li:hover {
+        box-sizing: border-box;
+        border: solid 0.5px #fff;
+        width: 160px;
+        height: 30px;
+        justify-content: center;
+        display: flex;
+        border-radius: 20px;
+        background-color: #fff;
+        color: #429EBD;
     }
