@@ -104,6 +104,10 @@ nav {
     grid-template-rows: 20% 80% ;  
     }
 
+nav ul {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
 
 .menu-logo {
     width: 400px;
