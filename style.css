@@ -227,4 +227,16 @@ margin-bottom: 20px;
     border-radius: 5px;
     }
  
-  
+  .relatos-trilhas {
+      display: grid;
+      grid-template-columns: 50% 50%;
+      justify-items: center;  
+  }
+
+  .relatos-trilhas h4 {
+      box-sizing: border-box;
+      border-right: solid 1px #429ebd;
+      padding: 5px;
+  }
+
+ 
