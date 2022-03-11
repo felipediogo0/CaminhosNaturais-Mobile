@@ -259,3 +259,11 @@ margin-bottom: 20px;
         box-sizing: border-box;
         padding: 5px;
     }
+
+    .relatos-trilhas h3 {
+        cursor: auto ;
+    }
+
+    .relatos-trilhas2 h3 {
+        cursor: auto;
+    }
