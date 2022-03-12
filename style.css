@@ -6,7 +6,7 @@ body {
     background: #fff;
     width: 360px;
     color: #429EBD;
-    margin-left: 10px;    
+    margin-left: 20px;    
     }
 
 img {
@@ -112,12 +112,9 @@ nav {
 nav ul {
     grid-column-start: 1;
     grid-column-end: 3;
-    width: 90%;
+    width: 95%;
         box-sizing: border-box;
-        border-bottom: outset 6px grey;
-        border-left: outset 6px grey;
-        border-right: outset 6px rgb(183, 189, 187);
-        border-top: outset 6px rgb(183, 189, 187);
+        border-bottom: outset 3px grey;
         margin-bottom: 0px;
 }
 
@@ -293,7 +290,7 @@ margin-bottom: 20px;
     ul {
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
         flex-direction: column;
         list-style-type: none;
         letter-spacing: 2px;
@@ -303,7 +300,7 @@ margin-bottom: 20px;
         cursor: pointer;
         height: 0px;
         visibility: hidden;
-         
+        
     }
 
     button:focus ~ ul {
@@ -322,9 +319,10 @@ margin-bottom: 20px;
     ul li {
         width: 200px;
         height: 30px;
-        justify-content: center;
+        justify-content: flex-start;
         display: flex;
         border-radius: 20px;
+        
     }
 
     ul li:hover {
@@ -337,4 +335,5 @@ margin-bottom: 20px;
         border-radius: 20px;
         background-color: #fff;
         color: #429EBD;
+        transition: all 0,5s ease;
     }
