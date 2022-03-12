@@ -104,28 +104,32 @@ header {
 
 nav {
     display: grid;    
-    grid-template-columns: 70% 30%; 
+    grid-template-columns: 80% 30%; 
     grid-template-rows: 10% 90%;
-    justify-items: center;
+    justify-items:flex-start;
+    margin-bottom: -40px;
     }
 
 nav ul {
     grid-column-start: 1;
     grid-column-end: 3;
-    width: 95%;
+    width: 91%;
         box-sizing: border-box;
-        border-bottom: outset 3px grey;
+        border-bottom: outset 1px grey;
         margin-bottom: 0px;
 }
 
 .menu-logo {
-    width: 400px;
+    width: 100px;
+    margin-left: 10px;
 }
 
 .menu-btn {
-    width: 70px;
+    width: 30px;
     border: none;
-    margin-top: 10px;
+    position: absolute;
+    right: 10px;
+    top: 30px;
 }
 
 .proximos-eventos {
