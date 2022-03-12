@@ -5,13 +5,17 @@
 body {
     background: #fff;
     width: 360px;
-    color: #429EBD;    
+    color: #429EBD;
+    margin-left: 10px;    
     }
 
 img {
     display: block;
     max-width: 100%;
-    
+   }
+
+.slide-items img {
+    height: 250px;
 }
 
 .slide {
@@ -108,8 +112,13 @@ nav {
 nav ul {
     grid-column-start: 1;
     grid-column-end: 3;
-    width: 100%;
-    
+    width: 90%;
+        box-sizing: border-box;
+        border-bottom: outset 6px grey;
+        border-left: outset 6px grey;
+        border-right: outset 6px rgb(183, 189, 187);
+        border-top: outset 6px rgb(183, 189, 187);
+        margin-bottom: 0px;
 }
 
 .menu-logo {
@@ -293,13 +302,15 @@ margin-bottom: 20px;
         color: #fff;
         cursor: pointer;
         height: 0px;
-        visibility: hidden;        
+        visibility: hidden;
+         
     }
 
     button:focus ~ ul {
         height: 250px;
         visibility: visible;
-        
+        transition: all 0.3s ease; 
+        margin-top: 20px;
     }
 
     button {
