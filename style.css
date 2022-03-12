@@ -6,7 +6,7 @@ body {
     background: #fff;
     width: 360px;
     color: #429EBD;
-    margin-left: 20px;    
+    margin-left: 15px;    
     }
 
 img {
@@ -266,7 +266,8 @@ margin-bottom: 20px;
     margin-bottom: 10px;
     color: #429EBD;
     cursor: pointer;
-    margin-bottom: 20px;    
+    margin-bottom: 20px;
+    cursor: pointer;    
     }
     .relatos-trilhas2 {
         display: grid;
@@ -340,3 +341,16 @@ margin-bottom: 20px;
         color: #429EBD;
         transition: all 0,5s ease;
     }
+
+    a {
+        text-decoration: none;
+        font-family: 'IBM Plex Sans';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 13px;
+        color: #fff;
+      }
+
+      .btn-relatos a {
+          color: #429EBD;
+      }
