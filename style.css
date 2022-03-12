@@ -322,7 +322,10 @@ margin-bottom: 20px;
         justify-content: flex-start;
         display: flex;
         border-radius: 20px;
-        
+        font-family: 'IBM Plex Sans';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 13px;
     }
 
     ul li:hover {
