@@ -121,16 +121,15 @@ nav ul {
 }
 
 .menu-logo {
-    width: 100px;
-    margin-left: 10px;
+    width: 200px;
 }
 
 .menu-btn {
     width: 30px;
     border: none;
     position: absolute;
-    right: 10px;
-    top: 30px;
+    right: 20px;
+    top: 40px;
 }
 
 .proximos-eventos {
