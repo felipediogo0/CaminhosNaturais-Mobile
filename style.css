@@ -429,3 +429,10 @@ margin-bottom: 20px;
         border-bottom: solid 1px #429ebd;
         margin:10px;
     }
+
+    @media (max-width: 360px){
+
+    body {
+        max-width: 90%;
+    }
+}
