@@ -6,7 +6,7 @@ body {
     background: #fff;
     width: 360px;
     color: #429EBD;
-    margin-left: 15px;    
+    max-width: 100%;
     }
 
 img {
