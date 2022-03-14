@@ -239,6 +239,7 @@ margin-bottom: 20px;
       position: fixed;
       right: 15px;
       bottom: 15px;
+      z-index: 1;
   }
 
   .nossa-comunidade {
@@ -358,3 +359,65 @@ margin-bottom: 20px;
       .btn-relatos a {
           color: #429EBD;
       }
+
+      /*CSS ESPORTES BOOTSTRAP*/
+
+      .text-light {
+        font-family: 'IBM Plex Sans', sans-serif ;
+        font-weight: 500 ;
+        font-style: italic;
+    }
+    
+    .btn-info {
+        background: #429ebd;
+        border: none;
+        width: 100px;
+    }
+
+    .dropdown-item {
+        background: #429ebd;
+    }
+
+    .foto-texto {
+        font-size: medium;
+        margin: 0px;
+    }
+
+    .agulhas-esportes {
+        width: 150px;
+        
+    }
+
+    .voolivre-esportes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .container {        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+        margin-top: 10px;
+        max-width: 95%; 
+    }
+    
+    .voo {
+        margin-bottom: 10px;
+    }
+
+    .linha {
+        border-bottom: dotted 1px #429ebd;
+        margin:10px;
+    }
+
+    .esportes-bootstrap {
+        
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        
+    }
