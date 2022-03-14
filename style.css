@@ -4,7 +4,7 @@
 
 body {
     background: #fff;
-    width: 360px;
+    width: 380px;
     color: #429EBD;
     max-width: 110%;
     padding: 10px;
@@ -404,7 +404,7 @@ margin-bottom: 20px;
         justify-content: center;
         padding: 0;
         margin-top: 10px;
-        max-width: 95%; 
+        max-width: 100%; 
     }
     
     .voo {
@@ -423,4 +423,9 @@ margin-bottom: 20px;
             flex-direction: column;
             align-items: center;
         
+    }
+
+    .linha-solid {
+        border-bottom: solid 1px #429ebd;
+        margin:10px;
     }
