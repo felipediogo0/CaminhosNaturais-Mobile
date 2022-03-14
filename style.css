@@ -427,6 +427,11 @@ margin-bottom: 20px;
         border-bottom: solid 1px #429ebd;
         margin:10px;
     }
+
+   .width-header {
+        max-width: 100%;
+        overflow: hidden;
+    }
     
 
     @media (max-width: 360px){
