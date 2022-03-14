@@ -20,10 +20,11 @@ img {
 .slide-items img {
     height: 250px;
     width: 360px;
+    overflow: hidden;
 }
 
 .slide {
-    max-width: 380px;
+    max-width: 360px;
     margin: 20px auto;
     display: grid;
 }
@@ -45,13 +46,14 @@ img {
 
 .slide-nav button {
     opacity: 0;
+    margin-left: 20px;
    }
 
 .slide-items > * {
     opacity: 0;
     position: absolute;
     top: 0px;
-    opacity: 0;
+    opacity: 1;
     pointer-events: none;
 }
 
