@@ -6,9 +6,9 @@ body {
     background: #fff;
     width: 380px;
     color: #429EBD;
-    max-width: 110%;
+    max-width: 100%;
     padding: 10px;
-    
+    overflow-x: hidden;
     }
 
 img {
