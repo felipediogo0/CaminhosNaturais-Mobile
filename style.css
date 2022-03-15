@@ -110,6 +110,7 @@ header {
 
 nav {
     display: flex;
+    
    
     }
 
@@ -120,6 +121,7 @@ nav ul {
         box-sizing: border-box;
         border-bottom: outset 1px grey;
         margin-bottom: 0px;
+        max-width: 100%;
 }
 
 .menu-logo {
@@ -373,6 +375,10 @@ margin-bottom: 20px;
         
     }
 
+    .dropdown-menu {
+        
+    }
+
     .dropdown-item {
         background: #429ebd;
         color:#fff;
@@ -428,11 +434,6 @@ margin-bottom: 20px;
         margin:10px;
     }
 
-   .width-header {
-        max-width: 100%;
-        overflow-x: hidden;
-    }
-    
 
     @media (max-width: 360px){
 
