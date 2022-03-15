@@ -170,7 +170,7 @@ h4 {
 border: 1px solid #429EBD;
 box-sizing: border-box;
 border-radius: 62px;
-width: 100px;
+width: 150px;
 text-align: center;
 color: #fff;
 background: #429EBD;
@@ -391,7 +391,7 @@ cursor: point;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-top: 10px;
+      
     }
 
     .container {        
@@ -413,31 +413,33 @@ cursor: point;
     }
 
     .esportes-bootstrap {
-        
             display: flex;
             justify-content: center;
             flex-direction: column;
             align-items: center;
-        
+            margin-top: 20px;
     }
 
     .linha-solid {
         border-bottom: solid 1px #429ebd;
         margin:10px;
     }
-<<<<<<< HEAD
-
-=======
     
->>>>>>> parent of abe29ac (YEAH!!!)
-
-    @media (max-width: 360px){
-
-    body {
-        max-width: 90%;
-    }
-    .menu-logo {
+    .btn-voolivre {
+        border: 1px solid #429EBD;
+        box-sizing: border-box;
+        border-radius: 62px;
         width: 150px;
-        margin-right: 40px;
+        text-align: center;
+        color: #429ebd;
+        background: #fff;
+        cursor: point;
+        margin-top: 10px;
+        }
+
+    .img-border{
+        border: solid 2px #429EBD;
+        border-radius: 100px;
     }
-}
+
+
