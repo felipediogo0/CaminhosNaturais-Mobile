@@ -138,16 +138,14 @@ h2 {
 
 }
 
-h3 {
-    margin-bottom: 30px;
+h3 {    
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 600;
     font-style: normal;
     font-size: 25px;
     text-decoration: underline;
     cursor: pointer;    
-    line-height: 0px;
-    
+    line-height: 25px;    
     text-align: center;
    
     }
@@ -241,8 +239,8 @@ cursor: point;
   .relatos-trilhas {
       display: grid;
       grid-template-columns: 50% 50%;
-      justify-items: center;  
-  }
+      justify-items: center; 
+      }
 
   .relatos-trilhas p{
     text-align: center;
@@ -267,7 +265,8 @@ cursor: point;
     .relatos-trilhas2 {
         display: grid;
         grid-template-columns: 50% 50%;
-        justify-items: center;  
+        justify-items: center; 
+       
     }
 
     ul {
@@ -463,6 +462,8 @@ cursor: point;
     flex-direction: column;
     border: solid;
     border-radius: 10px;
+    background:#429ebd;
+    color: #fff;
    }
 
 .relatodasemana img {
@@ -470,3 +471,14 @@ cursor: point;
        margin-top: 0px;
    }
 
+.background-grid {
+    border-radius: 10px;
+    border: solid;
+    margin-right: 2px;
+}
+
+.background-grid2 {
+    border-radius: 10px;
+    margin-left: 2px;
+    border: solid;
+}
