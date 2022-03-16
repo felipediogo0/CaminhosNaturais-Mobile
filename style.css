@@ -237,7 +237,8 @@ margin-bottom: 20px;
   .relatos-trilhas {
       display: grid;
       grid-template-columns: 50% 50%;
-      justify-items: center; 
+      justify-items: center;
+      margin-top: 20px; 
       }
 
   .relatos-trilhas p{
@@ -459,7 +460,12 @@ margin-bottom: 20px;
     border-radius: 10px;
     background:#429ebd;
     color: #fff;
+    margin-bottom: 20px;
    }
+
+.h2-underline{
+    text-decoration: underline;
+}
 
 .relatodasemana img {
        margin-bottom: 20px;
@@ -476,4 +482,63 @@ margin-bottom: 20px;
     border-radius: 10px;
     margin-left: 2px;
     border: solid;
+}
+
+.a-links {
+    display: inline-block;
+    text-align:end;
+    margin-top: 0px;
+    padding: 0px;
+    color: orange;
+    margin-bottom: 10px;
+    text-decoration:overline dotted;
+}
+
+.a-links-sm {
+    display: inline-block;
+    text-align:end;
+    margin-top: 0px;
+    padding: 0px;
+    color: orange;
+    margin-bottom: 10px;
+    text-decoration:overline dotted;
+    font-size: 10px;
+}
+
+
+.input-relatos {
+    border: solid 1px #429EBD;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 350px;
+    justify-self: center;
+    margin: 20px;
+    background: #429EBD;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    border: solid orange;
+}
+
+.texto-relatos {
+    border: none;
+    background: none;
+    outline: none;
+    color: #fff;
+    margin: 10px;
+    transition: 0.4s;
+    
+}
+
+.input-a {
+    color: #fff;
+}
+
+::placeholder {
+    color: #fff;
+    font-family: 'IBM Plex Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    
 }
