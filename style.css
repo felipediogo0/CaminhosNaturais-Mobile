@@ -2,7 +2,7 @@
 
 body {
     background: #fff;
-    width: 380px;
+    width: 390px;
     color: #429EBD;
     max-width: 100%;
     padding: 10px;
@@ -171,6 +171,7 @@ text-align: center;
 color: #fff;
 background: #429EBD;
 cursor: point;
+margin-bottom: 20px;
 }
 
 /* CSS BUTTON */ 
@@ -179,7 +180,6 @@ cursor: point;
    display: flex;
    align-items: center;
    justify-content: center;
-   
   }
 
   .btn{
@@ -187,7 +187,7 @@ cursor: point;
     display: block;
     color: #429EBD;
     font-size: 14px;
-    margin: 30px 0;
+    margin-bottom: 10px;
     border-radius: 50px;
     border: 2px solid #429EBD;
     padding: 14px 60px;
@@ -220,8 +220,8 @@ cursor: point;
   
   .whatsapp-btn {
       position: fixed;
-      left: 310px;
-      bottom: 15px;
+      right: 1px;
+      bottom: 10px;
       z-index: 2;
   }
 
