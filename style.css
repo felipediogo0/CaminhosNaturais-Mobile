@@ -6,23 +6,23 @@ body {
     color: #429EBD;
     max-width: 100%;
     padding: 10px;
-    overflow-x: hidden;
+    
     }
 
 img {
     display: block;
-    max-width: 100%;
-    margin-top: 20px;
-   }
+    max-width: 100%;    
+    }
 
 .slide-items img {
     height: 250px;
-    width: 360px;
+    width: 370px;
+    margin-bottom: 20px;
+   
 }
 
 .slide {
-    max-width: 380px;
-    margin: 20px auto;
+  
     display: grid;
 }
 
@@ -69,7 +69,7 @@ img {
     display: block;
     height: 3px;
     background: rgba(0,0,0,0.4);
-    margin: 5px;
+    margin: 10px;
     border-radius: 3px;
     overflow: hidden;
 }
@@ -204,8 +204,6 @@ cursor: point;
   .btn::before{
     background: #429EBD;
     content: "";
-    
-    margin-left: 30px;
     position: absolute;  
     transform: translate(-50%,-50%);
     z-index: -1;
@@ -332,10 +330,7 @@ cursor: point;
         color: #fff;
       }
 
-      .btn-relatos a {
-          color: #429EBD;
-      }
-
+     
       /*CSS ESPORTES BOOTSTRAP*/
 
     .text-light {
@@ -386,7 +381,7 @@ cursor: point;
 
     .linha {
         border-bottom: dotted 1px #429ebd;
-        margin:10px;
+        
     }
 
     .esportes-bootstrap {
