@@ -457,9 +457,9 @@ margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     border: solid;
-    border-radius: 10px;
-    background:#429ebd;
-    color: #fff;
+    border-radius: 5px;
+    background:#053F5C;
+    color: #F7AD19;
     margin-bottom: 20px;
    }
 
@@ -473,13 +473,13 @@ margin-bottom: 20px;
    }
 
 .background-grid {
-    border-radius: 10px;
+    border-radius: 5px;
     border: solid;
     margin-right: 2px;
 }
 
 .background-grid2 {
-    border-radius: 10px;
+    border-radius: 5px;
     margin-left: 2px;
     border: solid;
 }
