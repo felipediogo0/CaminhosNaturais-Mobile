@@ -157,7 +157,7 @@ h4 {
     font-size: 18px;
     line-height: 18px;
     text-align: center;
-    letter-spacing: 0.145em;
+    letter-spacing: 0.100em;
     margin-bottom: 10px;
     line-height: 1.5em;
     }
@@ -489,7 +489,7 @@ margin-bottom: 20px;
     text-align:end;
     margin-top: 0px;
     padding: 0px;
-    color: orange;
+    color: #F7AD19;
     margin-bottom: 10px;
     text-decoration:overline dotted;
 }
@@ -499,7 +499,7 @@ margin-bottom: 20px;
     text-align:end;
     margin-top: 0px;
     padding: 0px;
-    color: orange;
+    color: #F7AD19;
     margin-bottom: 10px;
     text-decoration:overline dotted;
     font-size: 10px;
@@ -515,9 +515,12 @@ margin-bottom: 20px;
     color: #fff;
     text-align: center;
     font-size: 20px;
-    border: solid orange;
     margin-left: 12px;
     margin-bottom: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 5px;
 }
 
 .texto-relatos {
@@ -539,8 +542,7 @@ margin-bottom: 20px;
     font-family: 'IBM Plex Sans';
     font-style: italic;
     font-weight: 400;
-    font-size: 18px;
-    
+    font-size: 18px;    
 }
 
 .logo-ff {
