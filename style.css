@@ -511,13 +511,13 @@ margin-bottom: 20px;
     border-radius: 20px;
     cursor: pointer;
     width: 350px;
-    justify-self: center;
-    margin: 20px;
     background: #429EBD;
     color: #fff;
     text-align: center;
     font-size: 20px;
     border: solid orange;
+    margin-left: 12px;
+    margin-bottom: 20px;
 }
 
 .texto-relatos {
@@ -541,4 +541,9 @@ margin-bottom: 20px;
     font-weight: 400;
     font-size: 18px;
     
+}
+
+.logo-ff {
+    display: flex;
+    justify-content: center;
 }
