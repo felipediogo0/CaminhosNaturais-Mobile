@@ -542,10 +542,20 @@ margin-bottom: 20px;
     font-family: 'IBM Plex Sans';
     font-style: italic;
     font-weight: 400;
-    font-size: 18px;    
+    font-size: 18px;
+    background: #429EBD;    
 }
 
 .logo-ff {
     display: flex;
     justify-content: center;
 }
+
+.formulario-de-sugestões {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+
+
