@@ -538,14 +538,49 @@ margin-bottom: 20px;
 }
 
 ::placeholder {
-    color: #fff;
+    color: #429ebd;
     font-family: 'IBM Plex Sans';
     font-style: italic;
     font-weight: 400;
-    font-size: 18px;    
+    font-size: 18px;
+    background: #fff;    
 }
 
 .logo-ff {
     display: flex;
     justify-content: center;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   margin-top: 20px;
+}
+
+input {
+    border: solid 1px #429ebd;
+    background: #fff;
+    margin: 5px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.formulario-tel {
+    display: flex;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario-mensagem {
+    display: flex;
+    width: 350px;
+    height: 400px;    
+    justify-content: center;
+}
+
+input[type="submit"]{
+    background: #429ebd;
+    color: #fff;
 }
