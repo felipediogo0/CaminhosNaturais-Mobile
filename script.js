@@ -80,12 +80,12 @@ $.get(url).then(function(response){
       let titulo = feed.caption !== null ? feed.caption:'';
       let tipo = feed.media_type;
       if (tipo ==='VIDEO') {
-        conteudo += '<video style="width:100%;height:100%;" controls><source src="'+feed.media_url+'" type="video/mp4"></video></div>';
+        conteudo += '<video controls><source src="'+feed.media_url+'" type="video/mp4"></video>';
 
       }
 
       else if (tipo === 'IMAGE') {
-        conteudo += '<img style="width:100%;height:100%" title="'+titulo+'"alt="'+titulo+'" src="'+feed.media_url+'" onclick="window.open(\''+ feed.permalink + '\');"></div>';
+        conteudo += '<img title="'+titulo+'"alt="'+titulo+'" src="'+feed.media_url+'" onclick="window.open(\''+ feed.permalink + '\');"></div>';
       
     
     }
