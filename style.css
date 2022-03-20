@@ -105,9 +105,7 @@ img {
     justify-content: space-between;
 }
 
-.dropdown-menu {
-    background: #429EBD;
-}
+
 
 .menu-logo {   
     width: 200px;
@@ -279,8 +277,7 @@ margin-bottom: 20px;
         background: #429EBD;
         color: #fff;
         cursor: pointer;
-        height: 0px;
-        visibility: hidden;
+        height: 0px;       
         
     }
 
@@ -302,11 +299,12 @@ margin-bottom: 20px;
         height: 30px;
         justify-content: flex-start;
         display: flex;
-        border-radius: 20px;
+        border-radius: 5px;
         font-family: 'IBM Plex Sans';
         font-style: italic;
         font-weight: 400;
         font-size: 13px;
+        background: #429EBD;
     }
 
     ul li:hover {
