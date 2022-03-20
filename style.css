@@ -582,3 +582,11 @@ input[type="submit"]{
     background: #429ebd;
     color: #fff;
 }
+
+.instagramlink {
+    display: flex;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    
+}
