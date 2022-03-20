@@ -586,9 +586,8 @@ input[type="submit"]{
 }
 
 .instagramlink {
-    display: flex;
-    width: 50px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
     align-items: center;
-    justify-content: center;
-    
 }
