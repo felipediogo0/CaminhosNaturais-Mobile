@@ -300,7 +300,6 @@ margin-bottom: 20px;
         height: 30px;
         justify-content: flex-start;
         display: flex;
-        border-radius: 5px;
         font-family: 'IBM Plex Sans';
         font-style: italic;
         font-weight: 400;
@@ -594,3 +593,6 @@ input[type="submit"]{
     grid-template-columns: auto auto auto auto auto;    
     align-items: center;
 }
+
+
+
