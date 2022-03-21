@@ -103,6 +103,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
+   
 }
 
 
@@ -305,6 +306,10 @@ margin-bottom: 20px;
         font-weight: 400;
         font-size: 13px;
         background: #429EBD;
+    }
+
+    ul li a {
+        transition: all 3s ease;
     }
 
     ul li:hover {
