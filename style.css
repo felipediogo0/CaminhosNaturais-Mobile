@@ -106,10 +106,8 @@ img {
    
 }
 
-
-
 .menu-logo {   
-    width: 200px;
+    width: 60%;
 }
 
 .proximos-eventos {
@@ -512,7 +510,6 @@ margin-bottom: 20px;
     border: solid 1px #429EBD;
     border-radius: 20px;
     cursor: pointer;
-    width: 350px;
     background: #429EBD;
     color: #fff;
     text-align: center;
@@ -600,3 +597,4 @@ button a {
     font-weight: 500;
     font-size: 15px;   
 }
+
