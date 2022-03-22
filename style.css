@@ -474,7 +474,8 @@ margin-bottom: 20px;
 
 .relatodasemana img {
        margin-bottom: 20px;
-       margin-top: 0px;
+       align-self: center;
+       width: 200px;
    }
 
 .background-grid {
@@ -589,6 +590,10 @@ input[type="submit"]{
     color: #fff;
 }
 
+.input-relatos input::placeholder {
+    color: #fff;
+    background: #429EBD;
+}
 .instagramlink {
     
     display: grid;
