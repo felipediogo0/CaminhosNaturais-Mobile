@@ -190,7 +190,7 @@ margin-bottom: 20px;
     padding: 14px 60px;
     text-transform: uppercase;
     overflow: hidden;
-    transition: 1s all ease;
+    transition: 0.3s all ease;
   }
 
   .btn:hover {
@@ -603,11 +603,14 @@ button a {
     font-size: 15px;   
 }
 
-@media only screen and (min-width:400px) and (max-width:600px){
-    body{
-        background: #053F5C;
-        
+
+@media only screen and (min-width:0px) and (max-width:600px){
+    .header-menudesktop {
+        visibility: hidden;
+        position: absolute;
+        top: 20px;
     }
+
 }
 
 @media only screen and (min-width:600px) and (max-width:1400px){
@@ -687,5 +690,31 @@ h4 {
 .foto-relatosemana {
     width: 300px;
    
+}
+
+.header-menu {
+    visibility: hidden;
+}
+
+.header-menudesktop ul{
+    display: flex;
+    flex-direction: row;
+    }
+
+.header-menudesktop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    top: 10px;
+   }
+
+
+.nav-menudesktop a {
+    font-size: 10px;
+    color: #429ebd;
+    font-size: 20px;
+    margin:20px;
 }
 }
