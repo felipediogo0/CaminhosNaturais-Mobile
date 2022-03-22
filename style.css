@@ -15,14 +15,12 @@ img {
     }
 
 .slide-items img {
-    height: 250px;
-    width: 370px;
+    width: 100%;
     margin-bottom: 20px;
    
 }
 
 .slide {
-  
     display: grid;
 }
 
@@ -615,7 +613,7 @@ button a {
 }
 
 
-@media only screen and (min-width:0px) and (max-width:600px){
+@media only screen and (min-width:0px) and (max-width:750px){
     .header-menudesktop {
         visibility: hidden;
         position: absolute;
@@ -624,20 +622,15 @@ button a {
 
 }
 
-@media only screen and (min-width:600px) and (max-width:1400px){
+@media only screen and (min-width:751px) and (max-width:1400px){
     body{
-        width:1400px;
+        width:100%;
+        overflow-x: hidden;
     }
     .menu-logo {   
         width: 20%;
     }
 
-.slide-items img {
-    height: 600px;
-    width: 1400px;
-    margin-bottom: 20px;
-
-}
 
 .proximos-eventos {
         display: flex;
@@ -716,7 +709,7 @@ h4 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
+    width: 98%;
     position: absolute;
     top: 10px;
    }
@@ -728,4 +721,13 @@ h4 {
     font-size: 20px;
     margin:20px;
 }
+.slide {
+    width: 70%;
+    justify-self: center;
+    margin-left: 12em;
+    overflow: hidden;
+}
+
+
+
 }
