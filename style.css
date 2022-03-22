@@ -106,10 +106,8 @@ img {
    
 }
 
-
-
 .menu-logo {   
-    width: 200px;
+    width: 60%;
 }
 
 .proximos-eventos {
@@ -213,7 +211,7 @@ margin-bottom: 20px;
     height: 0%;
   }
   .btn2:hover::before{
-    height: 140%;
+    height: 150%;
     color: #fff;
   }
   
@@ -265,6 +263,11 @@ margin-bottom: 20px;
         grid-template-columns: 50% 50%;
         justify-items: center; 
        
+    }
+
+    .relatos-trilhas img {
+        border: solid 2px #429ebd;
+        border-radius: 50%;
     }
 
     ul {
@@ -408,7 +411,7 @@ margin-bottom: 20px;
         text-align: center;
         color: #429ebd;
         background: #fff;
-        cursor: point;
+        cursor: pointer;
         margin-top: 10px;
         }
 
@@ -512,7 +515,6 @@ margin-bottom: 20px;
     border: solid 1px #429EBD;
     border-radius: 20px;
     cursor: pointer;
-    width: 350px;
     background: #429EBD;
     color: #fff;
     text-align: center;
@@ -599,4 +601,91 @@ button a {
     font-style: italic;
     font-weight: 500;
     font-size: 15px;   
+}
+
+@media only screen and (min-width:400px) and (max-width:600px){
+    body{
+        background: #053F5C;
+        
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width:1400px){
+    body{
+        width:1400px;
+    }
+    .menu-logo {   
+        width: 20%;
+    }
+
+.slide-items img {
+    height: 600px;
+    width: 1400px;
+    margin-bottom: 20px;
+
+}
+
+.proximos-eventos {
+        display: flex;
+    }
+
+h4 {
+    font-size: 30px;
+}
+
+.btn2::before{
+    width: 165%;
+    height: 0%;
+  }
+
+.voo {
+    width: 600px;
+}
+
+.agulhas-esportes {
+    width: 500px;
+}
+
+.foto-texto {
+    font-size: 30px;
+}
+
+.btn-voolivre {
+    margin-bottom: 1em;
+}
+
+.riodejaneiro {
+    font-size: 30px;
+}
+
+.relatos-trilhas img {
+    width: 300px;
+    margin: 1rem;
+}
+
+.h2-underline {
+    font-size: 50px;
+}
+
+.input-relatos {
+    width: 30%;
+   margin-left: 23em
+}
+
+.store-menu h4 {
+    letter-spacing: 1px;
+}
+
+.store-menu img {
+   margin-left: 24em;
+}
+
+.meu-logo {
+    width: 20%;
+}
+
+.foto-relatosemana {
+    width: 300px;
+   
+}
 }
