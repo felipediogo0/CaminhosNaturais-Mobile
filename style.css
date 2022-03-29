@@ -314,7 +314,8 @@ margin-bottom: 20px;
         font-style: italic;
         font-weight: 400;
         font-size: 13px;
-        background: #429EBD;
+        background: #053F5C;
+        opacity: 90%;
     }
 
     ul li a {
@@ -354,13 +355,17 @@ margin-bottom: 20px;
     }
     
     .btn-info {
-        background: #429ebd;
+        background: #053F5C;
         border: none;
         width: 100px;
-        color:#fff
-        
+        color:#fff;
+        opacity: 90%;        
     }
-   
+
+    .dropdown-menu {
+        background: none;
+        border: none;
+    }   
 
     .foto-texto {
         font-size: 18px;
