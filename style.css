@@ -14,7 +14,6 @@ img {
 .slide-items img {
     width: 100%;
     margin-bottom: 20px;
-   
 }
 
 .slide {
@@ -106,11 +105,11 @@ img {
 }
 
 main {
-    margin-top: 100px;
+    margin-top: 66px;
 }
 
 .menu-logo {   
-    width: 60%;
+    width: 40%;
 }
 
 .proximos-eventos {
@@ -733,5 +732,7 @@ h4 {
     margin:20px;
 }
 
-
+main {
+    margin-top: 83px;
+}
 }
