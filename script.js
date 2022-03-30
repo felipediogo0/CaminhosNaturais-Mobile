@@ -97,3 +97,15 @@ $.get(url).then(function(response){
 })
 
 });
+
+//Javascript troca das imagens Media Query
+
+document.addEventListener('DOMContentLoaded', init);
+
+function init(){
+    let query = window.matchMedia("(min-width: 751px)");
+    let img = document.querySelector('.img-js')
+    if(query.matches){
+    //img.src="./lib/3.svg"
+    }
+}
