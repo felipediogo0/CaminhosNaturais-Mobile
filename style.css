@@ -2,7 +2,7 @@
 
 body {
     background: #fff;
-    color: #429EBD;
+    color: #053F5C;
     max-width: 100%;
     }
 
@@ -35,8 +35,9 @@ img {
 }
 
 .slide-nav button {
-    opacity: 0;
-   }
+    opacity: 0;    
+    width: 200px;
+    }
 
 .slide-items > * {
     opacity: 0;
@@ -122,20 +123,19 @@ main {
 h1 {
     font-family: 'Playfair Display', serif;
     font-weight: 800;
-    font-size: 50px;  
+    font-size: 40px;  
     text-align: center; 
     text-transform: uppercase; 
-}
+    }
 
 h2 {
     font-family: 'Playfair Display', serif;
     font-weight: 800;
     font-style: normal;
-    font-size: 30px;
+    font-size: 25px;
     text-transform: uppercase;
     text-align: center;
-
-}
+    }
 
 h3 {    
     font-family: 'IBM Plex Sans', sans-serif;
@@ -728,11 +728,29 @@ h4 {
 .nav-menudesktop a {
     font-size: 10px;
     color: #fff;
-    font-size: 20px;
-    margin:20px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-right: 31px;
+    text-decoration: underline;
 }
 
 main {
     margin-top: 83px;
 }
+
+.slide {
+  
+}
+
+.slide-nav button {
+    opacity: 0;    
+    width: 600px;
+    margin-left: 20px;
+    }
+
+.slide-items img {
+    max-width: 100%;
+    object-fit:cover;
+    }
+
 }
