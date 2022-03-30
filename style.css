@@ -2,11 +2,8 @@
 
 body {
     background: #fff;
-    width: 390px;
     color: #429EBD;
     max-width: 100%;
-    padding: 10px;
-    
     }
 
 img {
@@ -27,7 +24,6 @@ img {
 .slide-items {
     position: relative;
     grid-area: 1/1;
-    border-radius: 4px;
     overflow: hidden;
 }
 
@@ -637,13 +633,13 @@ button a {
 }
 
 @media only screen and (min-width:751px) and (max-width:1400px){
-    body{
-        width:100%;
-        overflow-x: hidden;
-    }
-    .menu-logo {   
-        width: 20%;
-    }
+body{
+    width:100%;
+    overflow-x: hidden;
+}
+.menu-logo {   
+    width: 15%;
+}
 
 
 .proximos-eventos {
@@ -723,25 +719,19 @@ h4 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 98%;
-    position: absolute;
-    top: 10px;
+    position: fixed;
+    top: 0; 
+    z-index: 3;
+    background: rgba(5, 63, 92, 0.93);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
    }
-
 
 .nav-menudesktop a {
     font-size: 10px;
-    color: #429ebd;
+    color: #fff;
     font-size: 20px;
     margin:20px;
 }
-.slide {
-    width: 70%;
-    justify-self: center;
-    margin-left: 12em;
-    overflow: hidden;
-}
-
 
 
 }
