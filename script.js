@@ -1,5 +1,5 @@
 //AQUI É O SCRIPT DAS IMAGENS PRINCIPAIS
-
+/*
 class SlideStories {
     constructor(id) {
         this.slide = document.querySelector(`[data-slide="slide"]`);
@@ -63,6 +63,7 @@ class SlideStories {
 
 new SlideStories('slide');
 
+*/
 //JQUERY LINK COM O INSTAGRAM
 
 
@@ -73,7 +74,7 @@ $(function() {
 $.get(url).then(function(response){
    //console.log('retorno: ',response.data);
     let dadosJson = response.data
-    let conteudo = '<div class="row" style="padding-left:5px">';
+    let conteudo = '<div class="row">';
 
     for(let p=0; p < dadosJson.length; p++) {
       let feed = dadosJson[p];
@@ -85,7 +86,7 @@ $.get(url).then(function(response){
       }
 
       else if (tipo === 'IMAGE') {
-        conteudo += '<img title="'+titulo+'"alt="'+titulo+'" src="'+feed.media_url+'" onclick="window.open(\''+ feed.permalink + '\');"></div>';
+        conteudo += '<img class="img-row" title="'+titulo+'"alt="'+titulo+'" src="'+feed.media_url+'" " onclick="window.open(\''+ feed.permalink + '\');"></div>';
       
     
     }
