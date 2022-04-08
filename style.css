@@ -105,14 +105,20 @@ body {
     background: rgba(5, 63, 92, 0.93);
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     position: fixed;
+    width: 100%;
+}
+
+#id-btn {
+    max-width: 100%;
 }
 
 .menu-logo {   
-    width: 40%;
+    width: 40%;    
 }
 
 .img-principal {
     margin-top:65px;
+    margin-bottom: 10px;
 }
 
 .proximos-eventos img {
