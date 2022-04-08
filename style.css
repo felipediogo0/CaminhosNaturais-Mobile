@@ -1,12 +1,9 @@
-
 /*CSS DA PARTE DO SCRIPT DAS IMAGENS PRINCIPAIS*/
 
 body {
     background: #fff;
     color: #053F5C;
     max-width: 100%;
-    margin: 1px;
-    
     }
 
 img {
@@ -112,8 +109,13 @@ main {
     margin-top: 66px;
 }
 
+#id-btn{
+    margin-right: 15px;
+}
+
 .menu-logo {   
     width: 40%;
+    margin-left: 10px;
 }
 
 .proximos-eventos {
@@ -163,6 +165,11 @@ h4 {
     margin-bottom: 10px;
     line-height: 1.5em;
     }
+
+p {
+    text-align: center;
+    margin-left: 15px;
+}
 
 .btn-saibamais {
 border: 1px solid #429EBD;
@@ -234,6 +241,7 @@ margin-bottom: 20px;
     box-sizing: border-box;
     border-bottom: solid 2px #429EBD;
     border-radius: 5px;
+    margin-left: 15px;
     }
  
   .relatos-trilhas {
@@ -367,12 +375,12 @@ margin-bottom: 20px;
 
     .foto-texto {
         font-size: 18px;
-        margin: 0px;
+        margin-left: 10px;
     }
 
     .agulhas-esportes {
         width: 150px;
-        
+        margin-left: 17px;
     }
 
     .voolivre-esportes {
@@ -423,6 +431,7 @@ margin-bottom: 20px;
         background: #fff;
         cursor: pointer;
         margin-top: 10px;
+        margin-left: 18px;
         }
 
     .img-border{
@@ -449,12 +458,13 @@ margin-bottom: 20px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+    margin-left: 5px;
 }
 
 .slide-bootstrap {
-    width: 90%;
+    width: 100%;
     margin-bottom: 20px;
+    margin-left: 3px;
 }
 .riodejaneiro {
     text-align: center;
@@ -741,9 +751,6 @@ main {
     margin-top: 83px;
 }
 
-.slide {
-  
-}
 
 .slide-nav button {
     opacity: 0;    
