@@ -1,9 +1,12 @@
+
 /*CSS DA PARTE DO SCRIPT DAS IMAGENS PRINCIPAIS*/
 
 body {
     background: #fff;
     color: #053F5C;
     max-width: 100%;
+    margin: 1px;
+    
     }
 
 img {
