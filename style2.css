@@ -31,7 +31,7 @@ body {
 }
 
 .menu-logo {   
-    width: 60%;
+    width: 50%;
 }
 
 
@@ -52,9 +52,15 @@ ul li a {
 }
 
 .ilhadepaqueta {
-    margin-top: 75px;
+    margin-top: 65px;
     max-width: 100%;
     margin-bottom: 20px;
+}
+
+.paqueta-p {
+    margin: 10px 0 10px;
+    padding: 5px;
+    letter-spacing: 0px;
 }
 
 /*Parte CSS do FOOTER*/
