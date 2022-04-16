@@ -213,3 +213,10 @@ input[type="submit"]{
     max-width: 100%;
     margin-bottom: 20px;
 }
+
+.whatsapp-btn {
+    position: fixed;
+    right: 1px;
+    bottom: 10px;
+    z-index: 1;
+}
