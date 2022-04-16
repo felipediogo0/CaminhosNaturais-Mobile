@@ -180,13 +180,13 @@ p {
 }
 
 .btn-saibamais {
-border: 1px solid #429EBD;
+border: 1px solid #053F5C;
 box-sizing: border-box;
 border-radius: 62px;
 width: 150px;
 text-align: center;
 color: #fff;
-background: #429EBD;
+background: #053F5C;
 cursor: point;
 margin-bottom: 20px;
 }
@@ -202,11 +202,11 @@ margin-bottom: 20px;
   .btn{
     position: relative;
     display: block;
-    color: #429EBD;
+    color: #053F5C;
     font-size: 14px;
     margin-bottom: 10px;
     border-radius: 50px;
-    border: 2px solid #429EBD;
+    border: 2px solid #053F5C;
     padding: 14px 60px;
     text-transform: uppercase;
     overflow: hidden;
@@ -219,7 +219,7 @@ margin-bottom: 20px;
   }
 
   .btn::before{
-    background: #429EBD;
+    background: #053F5C;
     content: "";
     position: absolute;  
     transform: translate(-50%,-50%);
@@ -247,7 +247,7 @@ margin-bottom: 20px;
     flex-direction: column;
     align-items: center;
     box-sizing: border-box;
-    border-bottom: solid 2px #429EBD;
+    border-bottom: solid 2px #053F5C;
     border-radius: 5px;
     
     }
@@ -266,13 +266,13 @@ margin-bottom: 20px;
   }
 
   .btn-relatos {
-    border: 1px solid #429EBD;
+    border: 1px solid #053F5C;
     box-sizing: border-box;
     border-radius: 62px;
     width: 180px;
     text-align: center;
     margin-bottom: 10px;
-    color: #429EBD;
+    color: #053F5C;
     cursor: pointer;
     margin-bottom: 20px;
     cursor: pointer;  
@@ -287,7 +287,7 @@ margin-bottom: 20px;
     }
 
     .relatos-trilhas img {
-        border: solid 2px #429ebd;
+        border: solid 2px #053F5C;
         border-radius: 50%;
     }
 
@@ -299,7 +299,7 @@ margin-bottom: 20px;
         list-style-type: none;
         letter-spacing: 2px;
         line-height: 30px;
-        background: #429EBD;
+        background: #053F5C;
         color: #fff;
         cursor: pointer;
         height: 0px;       
@@ -345,7 +345,7 @@ margin-bottom: 20px;
         display: flex;
         border-radius: 20px;
         background-color: #fff;
-        color: #429EBD;
+        color: #053F5C;
         transition: all 0,5s ease;
     }
 
@@ -412,7 +412,7 @@ margin-bottom: 20px;
     }
 
     .linha {
-        border-bottom: dotted 1px #429ebd;
+        border-bottom: dotted 1px #053F5C;
         
     }
 
@@ -425,17 +425,17 @@ margin-bottom: 20px;
     }
 
     .linha-solid {
-        border-bottom: solid 1px #429ebd;
+        border-bottom: solid 1px #053F5C;
         margin:10px;
     }
     
     .btn-voolivre {
-        border: 1px solid #429EBD;
+        border: 1px solid #053F5C;
         box-sizing: border-box;
         border-radius: 62px;
         width: 150px;
         text-align: center;
-        color: #429ebd;
+        color: #053F5C;
         background: #fff;
         cursor: pointer;
         margin-top: 10px;
@@ -443,19 +443,19 @@ margin-bottom: 20px;
         }
 
     .img-border{
-        border: solid 2px #429EBD;
+        border: solid 2px #053F5C;
         border-radius: 100px;
         margin-bottom: 20px;
     }
 
 .btn-maisesportes {
-    border: solid 1px #429EBD;
+    border: solid 1px #053F5C;
     border-radius: 20px;
     cursor: pointer;
     width: 300px;
     justify-self: center;
     margin: 20px;
-    background: #429EBD;
+    background: #053F5C;
     color: #fff;
     text-align: center;
     font-size: 20px;
@@ -480,13 +480,13 @@ margin-bottom: 20px;
 }
 
 .btn-rio {
-    border: solid 1px #429EBD;
+    border: solid 1px #053F5C;
     border-radius: 20px;
     cursor: pointer;
     width: 300px;
     justify-self: center;
     margin: 20px;
-    background: #429EBD;
+    background: #053F5C;
     color: #fff;
     text-align: center;
     font-size: 20px;
@@ -547,10 +547,10 @@ margin-bottom: 20px;
 
 
 .input-relatos {
-    border: solid 1px #429EBD;
+    border: solid 1px #053F5C;
     border-radius: 20px;
     cursor: pointer;
-    background: #429EBD;
+    background: #053F5C;
     color: #fff;
     text-align: center;
     font-size: 20px;
@@ -577,7 +577,7 @@ margin-bottom: 20px;
 }
 
 ::placeholder {
-    color: #429ebd;
+    color: #053F5C;
     font-family: 'IBM Plex Sans';
     font-style: italic;
     font-weight: 400;
@@ -598,7 +598,7 @@ margin-bottom: 20px;
 }
 
 input {
-    border: solid 1px #429ebd;
+    border: solid 1px #053F5C;
     background: #fff;
     margin: 5px;
     width: 300px;
@@ -621,13 +621,13 @@ input {
 
 
 input[type="submit"]{
-    background: #429ebd;
+    background: #053F5C;
     color: #fff;
 }
 
 .input-relatos input::placeholder {
     color: #fff;
-    background: #429EBD;
+    background: #053F5C;
 }
 
 
