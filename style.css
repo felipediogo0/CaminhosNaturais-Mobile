@@ -442,10 +442,12 @@ margin-bottom: 20px;
         margin-top: 10px;
         
         }
+    
+    .events{
+       
+    }
 
     .img-border{
-        border: solid 2px #053F5C;
-        border-radius: 100px;
         margin-bottom: 20px;
     }
 
