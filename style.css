@@ -189,7 +189,7 @@ text-align: center;
 color: #fff;
 background: #053F5C;
 cursor: point;
-margin-bottom: 20px;
+
 }
 
 /* CSS BUTTON */ 
@@ -440,16 +440,7 @@ margin-bottom: 20px;
         background: #fff;
         cursor: pointer;
         margin-top: 10px;
-        
         }
-    
-    .events{
-       
-    }
-
-    .img-border{
-        margin-bottom: 20px;
-    }
 
 .btn-maisesportes {
     border: solid 1px #053F5C;
@@ -469,7 +460,6 @@ margin-bottom: 20px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
 }
 
 .slide-bootstrap {
