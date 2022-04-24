@@ -669,14 +669,14 @@ button a {
 
 }
 
-@media only screen and (min-width:751px) and (max-width:1400px){
+@media (min-width:751px){
 
 
-.menu-logo {   
-    width: 15%;
+
+
+.header-menu{
+    visibility: hidden;
 }
-
-
 .proximos-eventos {
         display: flex;
     }
@@ -726,17 +726,10 @@ h4 {
 }
 
 
-.meu-logo {
-    width: 20%;
-}
 
 .foto-relatosemana {
     width: 300px;
    
-}
-
-.header-menu {
-    visibility: hidden;
 }
 
 .header-menudesktop ul{
