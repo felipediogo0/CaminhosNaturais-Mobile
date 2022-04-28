@@ -674,7 +674,8 @@ button a {
     visibility: hidden;
 }
 .proximos-eventos {
-        display: flex;
+    display: flex;
+    margin-top: -90px;
     }
 
 h4 {
@@ -758,9 +759,18 @@ main {
 }
 
 .menu-logo {   
-    width: 20%;    
+    width: 10%;    
 }
 
+.part{
+    display: flex;
+    flex-direction: row;
+}
 
-
+.part2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
 }
