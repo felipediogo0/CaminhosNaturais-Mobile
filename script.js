@@ -75,32 +75,23 @@ $.get(url).then(function(response){
    //console.log('retorno: ',response.data);
     let dadosJson = response.data
     let conteudo = '<div class="row">';
-
     for(let p=0; p < dadosJson.length; p++) {
       let feed = dadosJson[p];
       let titulo = feed.caption !== null ? feed.caption:'';
       let tipo = feed.media_type;
       if (tipo ==='VIDEO') {
-        conteudo += '<video controls><source src="'+feed.media_url+'" type="video/mp4"></video>';
-
+        conteudo += '<video class="img-row" controls><source src="'+feed.media_url+'" type="video/mp4"></video>';
       }
-
       else if (tipo === 'IMAGE') {
         conteudo += '<img class="img-row" title="'+titulo+'"alt="'+titulo+'" src="'+feed.media_url+'" " onclick="window.open(\''+ feed.permalink + '\');"></div>';
-      
-    
     }
 }
-
     conteudo += '</div>';
     $('#insta').html(conteudo);
-    
 })
-
 });
 
 //Javascript troca das imagens Media Query
-
 document.addEventListener('DOMContentLoaded', init);
 
 function init(){

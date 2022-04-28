@@ -666,13 +666,9 @@ button a {
         position: absolute;
         top: 20px;
     }
-
 }
 
 @media (min-width:751px){
-
-
-
 
 .header-menu{
     visibility: hidden;
@@ -760,5 +756,11 @@ h4 {
 main {
     margin-top: 83px;
 }
+
+.menu-logo {   
+    width: 20%;    
+}
+
+
 
 }
