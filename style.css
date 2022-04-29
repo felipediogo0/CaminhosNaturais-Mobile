@@ -771,6 +771,11 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+    align-items: center;
+    width: 60%;    
+}
+
+.slide-bootstrap {
+    width: 50%;
 }
 }
