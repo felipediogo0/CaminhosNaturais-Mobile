@@ -660,6 +660,14 @@ button a {
     color: #fff;
 }
 
+.area2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
 @media only screen and (min-width:0px) and (max-width:750px){
     .header-menudesktop {
         visibility: hidden;
@@ -675,7 +683,7 @@ button a {
 }
 .proximos-eventos {
     display: flex;
-    margin-top: -90px;
+    margin-top: -70px;
     }
 
 h4 {
@@ -751,15 +759,14 @@ h4 {
     font-size: 18px;
     letter-spacing: 1px;
     margin-right: 31px;
-    text-decoration: underline;
-}
+    }
 
 main {
     margin-top: 83px;
 }
 
 .menu-logo {   
-    width: 10%;    
+    width: 15%;    
 }
 
 .part{
@@ -778,4 +785,18 @@ main {
 .slide-bootstrap {
     width: 50%;
 }
+
+.area {
+    display: flex;
+    flex-direction: row;
+    }
+
+.area2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
 }
